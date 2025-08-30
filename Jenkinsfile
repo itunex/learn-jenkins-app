@@ -45,6 +45,7 @@ pipeline {
             steps {
                 sh '''
                     ls -al
+                    whoami
                    # npm install -g serve
                    # serve -s build
                    # npx playwright test
